@@ -9,6 +9,10 @@ module.exports = {
 
 	  index: function (req, res) {
 	  	return res.view();
+	  },
+
+	  recovery:function(req,res){
+	  	return res.view();
 	  }
 	
 };
