@@ -7,8 +7,19 @@
 
 module.exports = {
 
+  connection: 'MysqlServer',
   attributes: {
-
+  	   id: {
+            type: 'integer',
+            autoIncrement: true,
+            primaryKey: true
+        },
+        email: {
+            type: 'string'
+        },
+        password: {
+            type: 'string'
+        }
   }
 };
 
